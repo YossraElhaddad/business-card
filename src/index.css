@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background: #23252C;
+}
+
+.App {
+    position: relative;
+    width: 317px;
+    height: auto;
+    left: 116px;
+    top: 44px;
+    background: #1A1B21;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio p:first-child {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    margin: 3px;
+    color: #F3BF99;
+}
+
+.bio p:last-child {
+    text-align: center;
+    margin: 3px;
+}
+
+.bio p:last-child a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    /* identical to box height, or 15px */
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.image-placeholder {
+    width: 317px;
+    height: 317px;
+    background-color: lightgray;
+    border-radius: 10px 10px 0px 0px;
+    color: #FFFFFF;
+    font-size: 75px;
+    text-align: center;
+    line-height: 100px;
+}
+
+h2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    margin: 35px;
+    width: 250px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.buttons>button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+}
+
+.email {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+}
+
+.linkedin {
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+:is(.about, .interests) h3,
+p {
+    margin: 10px;
+}
+
+:is(.about, .interests) h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+:is(.about, .interests) p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+footer {
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+i.fa-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>i {
+    width: 25px;
+    height: 25px;
+    background: #918E9B;
+    border-radius: 6px;
+    
+}
