@@ -1,9 +1,12 @@
 {
-  "name": "business-card-react",
+  "name": "business-card",
   "version": "1.0.0",
+  "homepage": " https://yossraelhaddad.github.io/business-card/",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack.config.js"
   },
